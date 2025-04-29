@@ -1,5 +1,5 @@
 # algoritmo de busca - linear
-'''def busca (lista, nome_procurado):
+def busca (lista, nome_procurado):
     for i in range(len(lista)):
         if lista[i] == nome_procurado:
             return i + 1 # retorna para a posição
@@ -7,7 +7,7 @@
 nomes = ["Maria", "Ana", "João", "Pedro"]
 posicao = busca(nomes, "Ana")
 nome_procurado = input('Qual nome você quer procurar? ')
-print("Ana está na posição:", posicao)'''
+print("Ana está na posição:", posicao)
 
 # algoritmo de busca - binária
 def binaria (lista, valor_procurado):
@@ -23,5 +23,5 @@ def binaria (lista, valor_procurado):
             fim = meio - 1
     return -1
 numeros = [1, 3, 5, 7, 9, 11, 13, 15]
-posicao = binaria(numeros, 15)
-print("Número encontrado na posição:", posicao)
+pos = binaria(numeros, 15)
+print("Número encontrado na posição:", pos)
