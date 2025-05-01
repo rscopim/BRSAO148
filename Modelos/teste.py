@@ -1,17 +1,16 @@
-# Solicita o nome do usuário
-nome = input("Digite seu nome: ")
+nome = "Zé"
+dade = 20
 
-# Exibe uma mensagem de boas-vindas
-print(f"Olá, {nome}! Seja bem-vindo(a) ao Python! 👋")
+def saudacao():
+    print("Boa noite!")
+saudacao()
 
-# Solicita o nome do usuário
-nome = input("Digite seu nome: ")
+def soma(a, b):
+    return a+b
+resultado = soma(1, 2)
+print(resultado)
 
-# Exibe uma mensagem de boas-vindas
-print(f"Olá, {nome}! Seja bem-vindo(a) ao Python! 👋")
-
-# Solicita o nome do usuário
-nome = input("Digite seu nome: ")
-
-# Exibe uma mensagem de boas-vindas
-print(f"Olá, {nome}! Seja bem-vindo(a) ao Python! 👋")
+#constante
+PI = 3.14159
+TAXA_DESCONTO = 0.5
+print(PI)

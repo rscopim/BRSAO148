@@ -11,3 +11,6 @@ def somar_numeros(numero1, numero2):
     return numero1 + numero2
 resultado = somar_numeros(5, 10)
 print(resultado)
+
+'''
+este código é real'''
