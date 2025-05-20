@@ -1,3 +1,6 @@
+'''Crie um script em Python que escreva dados em um arquivo CSV. O arquivo CSV deve conter informações de pessoas, com colunas Nome, Idade e Cidade.
+escrever_csv.py'''
+
 # Importa o módulo csv que permite manipular arquivos CSV
 import csv
 
